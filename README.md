@@ -2,7 +2,7 @@ This works with Super Mario Galaxy 2 (SB4E01). Not sure about other regions. Nin
 
 ### Setup
 You must add the following entries to your ProductMapObjDataTable:
-*LavaJamboSunPlanet*
+*LavaJamboSunPlanet* (ModelName AND ClassName)
 
 ### Object Arguments
 *Note that the current list of arguments may be subject to any corrections, if needed*
