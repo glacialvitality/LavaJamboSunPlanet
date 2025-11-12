@@ -6,6 +6,8 @@ It interacts with the stage switches and follows a rail path.
 Switch Documentation:
 - SW_A: Activates the movement of the LavaJamboSunPlanet when turned ON.
 - SW_B: Resumes the movement of the LavaJamboSunPlanet from a paused state when turned ON.
+
+Check the README.md for more details.
 */
 
 
