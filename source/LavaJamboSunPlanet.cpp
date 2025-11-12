@@ -29,7 +29,11 @@ LavaJamboSunPlanet::LavaJamboSunPlanet(const char* pName) : LiveActor(pName) {
 
 void LavaJamboSunPlanet::init(const JMapInfoIter& rIter) {
     MR::initDefaultPos(this, rIter);
-    //MR::processInitFunction("LavaJamboSunPlanet", nullptr, nullptr, false); - This function is supposed to be used, but thorws errors so falling back to the old one for now.
+    /* 
+    MR::processInitFunction("LavaJamboSunPlanet", nullptr, nullptr, false); 
+    This function is supposed to be used, but thorws errors so falling back to the old one for now.
+    If anyone can figure this out, open a pull request.
+    */
     initModelManagerWithAnm("LavaJamboSunPlanet", nullptr, nullptr, false); 
     initHitSensor(1);
     HitSensor* bodySensor = MR::addBodyMessageSensorMapObj(this);
