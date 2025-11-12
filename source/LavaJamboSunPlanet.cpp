@@ -1,19 +1,6 @@
-/*
-Object Documentation:
-This object represents the LavaJamboSunPlanet, a moving planet-like object in the game.
-It interacts with the stage switches and follows a rail path.
-
-Switch Documentation:
-- SW_A: Activates the movement of the LavaJamboSunPlanet when turned ON.
-- SW_B: Resumes the movement of the LavaJamboSunPlanet from a paused state when turned ON.
-
-Check the README.md for more details.
-*/
-
-
-
 #include "LavaJamboSunPlanet.h"
 
+//Documentation: either refer to LavaJamboSunPlanet.h or the README.md in the module's root folder.
 namespace NrvLavaJamboSunPlanet {
     FULL_NERVE(HostTypeWait, LavaJamboSunPlanet, Wait);
     FULL_NERVE(HostTypePause, LavaJamboSunPlanet, Wait);
