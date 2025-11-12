@@ -1,5 +1,5 @@
 #pragma once
-#include "syati.h"
+#include "Syati.h"
 
 class PartsModel;
 

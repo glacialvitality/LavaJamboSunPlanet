@@ -9,7 +9,7 @@ Switch Documentation:
 */
 
 
-#include "Syati.h"
+
 #include "LavaJamboSunPlanet.h"
 
 namespace NrvLavaJamboSunPlanet {
