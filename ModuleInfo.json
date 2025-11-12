@@ -2,18 +2,9 @@
   "Name": "LavaJamboSunPlanet",
   "FolderName": "LavaJamboSunPlanet",
   "Author": "GlacialVitality",
-  "Categories": [
-    "Object",
-    "Port"
-  ],
   "Description": "The Giant lava planet from Melty Molten Galaxy (Sinking Lava Spire), ported to SMG2.",
   "Install": "git:https://github.com/glacialvitality/LavaJamboSunPlanet.git",
   "InstallDependencies": ["Syati_ObjectFactories", "Syati_Init"],
-  "BuildTasks": [{
-    "Task": "Copy",
-    "From": "disc/",
-    "To": "../../Output/disc/"
-  }],
   "ModuleData" : [
     {
       "ProductMapObj" : [
