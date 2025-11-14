@@ -1,0 +1,7 @@
+{
+  "Version": 2,
+  "Files": [
+    "include/LavaJamboSunPlanet.h",
+    "source/LavaJamboSunPlanet.cpp"
+  ]
+}
