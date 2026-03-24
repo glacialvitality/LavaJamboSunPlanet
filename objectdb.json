@@ -1,0 +1,73 @@
+{
+    "Objects": [
+        {
+            "Progress": 2,
+            "Category": "stagepart",
+            "ClassNameSMG2": "LavaJamboSunPlanet",
+            "IsLeftover": false,
+            "ClassNameSMG1": "LavaJamboSunPlanet",
+            "InternalName": "LavaJamboSunPlanet",
+            "ListSMG1": "ObjInfo",
+            "ListSMG2": "ObjInfo",
+            "Name": "Melty Molten -- Main Planet",
+            "IsUnused": false,
+            "AreaShape": "Any",
+            "Games": 3,
+            "File": "Map",
+            "Notes": "The large lava sphere planet."
+        }
+    ],
+    "Classes": [
+        {
+            "Progress": 0,
+            "Parameters": {
+                "DemoCast": {
+                    "Description": "Can take part in a cutscene.",
+                    "Exclusives": [],
+                    "Games": 3,
+                    "Needed": false
+                },
+                "SW_A": {
+                    "Description": "Activates the movement of the LavaJamboSunPlanet when activated.",
+                    "Exclusives": [],
+                    "Games": 3,
+                    "Needed": true
+                },
+                "SW_B": {
+                    "Description": "Resumes the movement of the LavaJamboSunPlanet from a paused state when activated.",
+                    "Exclusives": [],
+                    "Games": 3,
+                    "Needed": true
+                },
+                "Point_arg0": {
+                    "Type": "Integer",
+                    "Description": "The rate at which the LavaJamboSunPlanet moves. Higher values will result in faster movement.",
+                    "Exclusives": [],
+                    "Games": 3,
+                    "Values": [],
+                    "Needed": false,
+                    "Name": "Movement Speed"
+                },
+                "Point_arg1": {
+                    "Type": "Integer",
+                    "Description": "When set to 1, the object will stop its movement initiated by SW_A. When set to -1, the object will not stop. When SW_B is activate, the object will resume movement from the configured point until the end of the path.",
+                    "Exclusives": [],
+                    "Games": 3,
+                    "Values": [],
+                    "Needed": false,
+                    "Name": "Stop SW_A Movement"
+                },
+                "Rail": {
+                    "Description": "The path that it moves on.",
+                    "Exclusives": [],
+                    "Games": 3,
+                    "Needed": false
+                }
+            },
+            "Games": 3,
+            "InternalName": "LavaJamboSunPlanet",
+            "Notes": "",
+            "Name": "LavaJamboSunPlanet"
+        }
+    ]
+}
